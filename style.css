@@ -70,3 +70,6 @@ body {
         
     }
 }
+.abas-textos{
+    background-color: var(--texto-fundo);
+}
