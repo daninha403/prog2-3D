@@ -71,3 +71,10 @@ body {
 <button class="botao">Criar projetos em Javascript</button>
 <button class="botao">Criar um portfolio</button>
 <button class="botao">Atualizar meu currículo</button>
+botoes[i].onclick = function(){
+    
+    botoes[i].classList.add("ativo");
+}
+for(let j=0;j<botoes.length;j++){
+    botoes[j].classList.remove("ativo");
+}
